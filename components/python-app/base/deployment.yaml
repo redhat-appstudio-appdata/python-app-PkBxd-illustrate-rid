@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: python-app
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/python-app/python-app@sha256:51f57b97857f3d5f4d520ac44110bf89e42b639472753df51028d1ee384c776f
+      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/python-app/python-app@sha256:f51e203c684143779d3edad2e6f1e1df1eaeb94b0d1fbf8fbf36e3bbc472db41
         name: my-python
         ports:
         - containerPort: 8081
