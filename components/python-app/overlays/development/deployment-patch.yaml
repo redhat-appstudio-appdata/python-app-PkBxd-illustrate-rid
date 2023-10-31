@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/python-app/python-app@sha256:f6fdb142d8f67a83360f99a26a0733530981f0f568b3d9963fd80dfdce1d96e1
+      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/python-app/python-app@sha256:395b26aebd34d97855b5d38957145e618dc9d95baba86680b4e93bb559997f33
         name: my-python
         resources: {}
 status: {}
