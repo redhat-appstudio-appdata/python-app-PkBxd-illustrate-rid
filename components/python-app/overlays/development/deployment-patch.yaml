@@ -4,6 +4,7 @@ metadata:
   creationTimestamp: null
   name: python-app
 spec:
+  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -11,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/python-app/python-app@sha256:de9a80911714d8971dcc71fc4bc607fc6b4ce255d616bcc3946a9f16c7681547
+      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/python-app/python-app@sha256:6d4867ae3d57732fc0a62dd191055aa5cdc5f3c4237b037e1a7b6c59f335f6b4
         name: my-python
         resources: {}
 status: {}
