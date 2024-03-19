@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: python-app
     app.kubernetes.io/part-of: python-app
-  name: python-appw2pt
+  name: python-apph5rw
 spec:
   path: /
   port:
