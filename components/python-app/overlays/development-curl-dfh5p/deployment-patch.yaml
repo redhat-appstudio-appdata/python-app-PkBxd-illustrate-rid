@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: python-app
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/ralphjbean-tenant/python-app/python-app@sha256:3c15190980685692fa9d26b4aabc77630e046f0bf527cca88879d2f1f4c0b7bf
+        name: my-python
+        resources: {}
+status: {}
